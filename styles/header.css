@@ -1,15 +1,17 @@
 header{
   padding-block: 32px;
+  font: var(--text-md);
 }
 
 hearder .container{
 display: flex;
+justify-content: space-between;
+align-items: center;
 }
 
 
 #profile{
 display: flex;
-align-items: center;
 gap: 32px;
 }
 
@@ -23,9 +25,6 @@ gap: 32px;
   margin-bottom: 8px;
 }
 
-#profile p{
-  font: var(--text-md);
-}
 
 #info{
 list-style: none;
