@@ -19,6 +19,7 @@ gap: 32px;
   max-width: 384px;
 }
 
+
 #profile h1{
   font: var(--text-lg);
   color: var(--text-color-primary);
